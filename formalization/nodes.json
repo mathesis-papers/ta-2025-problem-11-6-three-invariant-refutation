@@ -1,0 +1,348 @@
+{
+  "nodes": [
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s1",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "For $r=5,7$ one has\n\\[\n (|G_r|,|Z(G_r)|,k(G_r))=(64,4,22),\n\\]\nwhereas\n\\[\n |\\Good(\\Conj G_5)|=10\\cdot4^6\\cdot6^3=8\\,847\\,360,\n \\qquad\n |\\Good(\\Conj G_7)|=10^4\\cdot6^3=2\\,160\\,000.\n\\]\nThus neither determination nor an exact formula depending only on the\nthree numbers in Problem 11.6 is possible.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s2",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "Good involutions of $\\Conj X$ correspond bijectively to functions\n$z:X\\to Z(H)$ that are constant on $H$-conjugacy classes and satisfy\n\\begin{equation}\n z(x)x^{-1}\\in X,\\qquad z\\bigl(z(x)x^{-1}\\bigr)=z(x)\\quad(x\\in X).\n\\end{equation}\nThe corresponding map is $\\rho(x)=z(x)x^{-1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s3",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "For every finite conjugation subquandle as above,\n\\begin{equation}\n |\\Good(\\Conj X)|=\n \\sum_{\\sigma\\in\\Inv(\\mathcal C)}\n \\prod_{\\sigma(C)=C}w_{CC}\n \\prod_{\\{C,D\\}\\in\\mathcal P(\\sigma)}w_{CD}.\n\\end{equation}\nThe count factors over the connected components of the graph with vertex\nset $\\mathcal C$ and an edge between distinct $C,D$ when $w_{CD}>0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s4",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "Put $q=|Z(H)|$ and $k=|\\mathcal C|$. If $q\\ge2$, then\n\\[\n |\\Good(\\Conj X)|=q^k\n \\quad\\Longleftrightarrow\\quad\n zC^{-1}=C\\quad(C\\in\\mathcal C,\\ z\\in Z(H)).\n\\]\nFor $q=1$, equality holds exactly when $X=X^{-1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s5",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "For a finite group $G$, put $q=|Z(G)|$, $k=k(G)$, and\n\\[\n I(q)=\\sum_{j=0}^{\\lfloor q/2\\rfloor}\n       \\frac{q!}{2^j j!(q-2j)!}.\n\\]\nThen\n\\[\n |\\Good(\\Conj G)|\\le I(q)q^{k-q}.\n\\]\nIn particular, $|\\Good(\\Conj G)|<q^k$ whenever $q\\ge2$.\nThe sharper bound is attained by $G=Q_8$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s6",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "Let $X=\\{\\pm i,\\pm j\\}\\subset Q_8$ with its conjugation quandle.\nThen $H=\\langle X\\rangle=Q_8$, $|Z(H)|=2$, $|X/H|=2$, and\n\\[\n |\\Good(\\Conj X)|=4\n =\\min\\bigl(|\\Aut(\\Conj X)|,\\,2^2\\bigr),\n \\qquad |\\Aut(\\Conj X)|=8.\n\\]\nThus Problem 11.7 has a negative answer. Moreover,\n$\\operatorname{Anti}(\\Conj X)=\\Aut(\\Conj X)\\cong C_2\\wr S_2$,\nand exactly three symmetric-quandle isomorphism classes arise from $X$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s7",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "For a finite conjugation subquandle $X$, inversion-closure means that\ninversion permutes the $H$-classes contained in $X$, not necessarily\nthat it fixes each class. In particular, the classwise equivalence\nin Ta's Remark 2.14 (Section 2.1.1, p.~6) requires this correction.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-6-three-invariant-refutation:s8",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Cl": "\\operatorname{Cl}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}",
+        "\\Inv": "\\operatorname{Inv}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "scope": "in_scope",
+      "statement": "For every positive integer $n$,\n\\[\n |\\Good\\Lambda_{4n,2n-1}|=\n \\begin{cases}10,&n\\text{ odd},\\\\4,&n\\text{ even}.\\end{cases}\n\\]\nFor odd $n$, Chinese remainder coordinates identify all good maps as\n$(u,v)\\mapsto(\\sigma(u),v)$ on $(\\mathbb Z/4)\\times(\\mathbb Z/n)$,\nwhere $\\sigma$ is an arbitrary involution of four points.\nThe odd case proves Conjecture 5.13; $n=1$ is an additional case not\nposed there. The even case reproves Ta's Remark 5.14.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
+    }
+  ]
+}

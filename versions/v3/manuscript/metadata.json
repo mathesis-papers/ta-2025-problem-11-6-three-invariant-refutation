@@ -1,0 +1,51 @@
+{
+  "id": "ta-2025-problem-11-6-three-invariant-refutation",
+  "revision": 3,
+  "problem_ids": [
+    "ta-2025-problem-11-6-three-invariant-refutation",
+    "ta-2025-problem-11-7-good-involution-bound-refutation"
+  ],
+  "topic": "Negative answers to Ta's three-invariant and strict-bound questions and a proof of Conjecture 5.13 for a linear quandle family",
+  "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+  "creators": [
+    {"name": "Ma, Haobo", "affiliation": "ChronoAI Pte Ltd, Singapore"},
+    {"name": "Zhang, Wenlin", "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore"}
+  ],
+  "abstract": "We answer negatively Ta's Problems 11.6–11.7 in arXiv:2505.08090v5, Section 11, page 27, and prove his Conjecture 5.13 in arXiv:2508.16772v1, Section 5.2.2, page 17, extending the counting methods of Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026). The two semidirect products C16 semidirect C4 with actions 5 and 7 have invariant triple (64,4,22), but respectively 8847360 and 2160000 good involutions. Ta's central-label characterization gives a weighted-involution formula for every finite conjugation subquandle and an exact criterion for equality in the central-label bound. The quaternion example attains that bound with two orbits and a center of order two. Inversion-closure is distinguished from classwise inverse stability, correcting Remark 2.14. For the linear quandle Lambda_(4n,2n-1), the number of good involutions is ten for odd n and four for even n; the odd case proves Conjecture 5.13, and the even case reproves Ta's Remark 5.14.",
+  "summary": "An explicit equal-invariant pair answers Problem 11.6 negatively; a quaternion realization of the known R4 count answers Problem 11.7 negatively. Weighted counting extends Ta's orbit-involution method to central-twist weights and yields an exact equality criterion and a sharper whole-group bound. The cross-referenced Conjecture 5.13 is proved, and its known even companion is reproved; complete written proofs and finite checks accompany the results.",
+  "license": "cc-by-4.0",
+  "evidence_url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean",
+  "posing_source": {
+    "author": "Lực Ta",
+    "url": "https://arxiv.org/abs/2505.08090v5",
+    "locator": "Section 11, Problems 11.6–11.7, printed page 27",
+    "version_date": "2025-08-04",
+    "first_posing_version": "v3",
+    "first_posing_date": "2025-07-15"
+  },
+  "coverage": {
+    "Problem 11.6": "Answered: no; equal triples (64,4,22) and unequal complete counts",
+    "Problem 11.7": "Answered: no; the full bound min(8,2^2)=4 is attained",
+    "Problems 11.1–11.3 and 11.5": "Explicit quaternion instances; the R4 good maps reprove Kamada–Oshiro (2009), Theorem 3.2(3)",
+    "Problem 11.4": "Not covered",
+    "Conjectures 11.8–11.9": "Prior counterexamples cited: Nakajima–Yamaguchi (2026), Example 6.8 and following paragraph",
+    "Remark 2.14": "Refuted-and-corrected: inversion permutes the contained conjugacy classes, rather than fixing each class",
+    "arXiv:2508.16772v1, Lemma 5.10 and Theorem 5.11, pages 15–16": "Prior method cited: weighted orbit involutions and parity factorization; extended here to general central-twist weights",
+    "arXiv:2508.16772v1, Section 5.2.2, Conjecture 5.13, page 17": "Proved: ten good involutions for every odd n>=3; n=1 is an additional case not posed there",
+    "arXiv:2508.16772v1, Remark 5.14, page 17": "Reproved; prior proof Ta (2025): four good involutions for every even positive n"
+  },
+  "verification": {
+    "written": ["Ta's central-label characterization for finite conjugation subquandles", "weighted-involution formula and exact equality criterion", "sharper whole-group bound I(q)q^(k-q)", "complete class tables and both order-64 counts", "quaternion automorphisms, antiautomorphisms and three symmetric isomorphism classes", "correction to Remark 2.14", "classification of all good involutions of Lambda_(4n,2n-1) for every positive n: ten for odd n and four for even n"],
+    "finite": "verify.py reconstructs both order-64 groups and all central-label blocks. verify_siblings.py checks all 256 quaternion-subquandle functions, all 24 permutations, all 55 nonempty quaternion conjugation subquandles, the displayed inverse classes, and all allowed Alexander labels and defining good identities for the linear family with n=1,...,31.",
+    "lean": {
+      "source_revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+      "declarations": {
+        "TaThreeInvariantRefutation.good_counts": "both complete whole-group numerical counts",
+        "TaThreeInvariantRefutation.result": "negation of three-invariant determination for finite nonabelian groups",
+        "TaGoodInvolutionBoundRefutation.result": "negation of universal strictness using the four-point quaternion witness"
+      },
+      "shared_definitions": ["ConjugationSubquandle.Good", "ConjugationSubquandle.Aut", "ConjugationSubquandle.orbitCount"],
+      "bijections": ["CentralLabels.goodLabelEquiv", "CentralLabels.wholeGoodEquiv", "BlockCounting.labelBlockEquiv", "BlockCounting.whole_good_card", "BlockCounting.classEquiv"]
+    }
+  }
+}

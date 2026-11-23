@@ -1,0 +1,649 @@
+{
+  "schema_version": 1,
+  "groups": [
+    {
+      "action": 5,
+      "order": 64,
+      "center": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          12,
+          0
+        ]
+      ],
+      "center_order": 4,
+      "class_number": 22,
+      "blocks": [
+        {
+          "representatives": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              12,
+              0
+            ]
+          ],
+          "class_sizes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "count": 10
+        },
+        {
+          "representatives": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "class_sizes": [
+            4,
+            4
+          ],
+          "weights": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "count": 4
+        },
+        {
+          "representatives": [
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "class_sizes": [
+            2,
+            2
+          ],
+          "weights": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "count": 6
+        },
+        {
+          "representatives": [
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "class_sizes": [
+            4,
+            4
+          ],
+          "weights": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "count": 4
+        },
+        {
+          "representatives": [
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "class_sizes": [
+            4,
+            4
+          ],
+          "weights": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "count": 4
+        },
+        {
+          "representatives": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "class_sizes": [
+            4,
+            4
+          ],
+          "weights": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "count": 4
+        },
+        {
+          "representatives": [
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "class_sizes": [
+            4,
+            4
+          ],
+          "weights": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "count": 4
+        },
+        {
+          "representatives": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "class_sizes": [
+            2,
+            2
+          ],
+          "weights": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "count": 6
+        },
+        {
+          "representatives": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "class_sizes": [
+            4,
+            4
+          ],
+          "weights": [
+            [
+              0,
+              4
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "count": 4
+        },
+        {
+          "representatives": [
+            [
+              2,
+              2
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "class_sizes": [
+            2,
+            2
+          ],
+          "weights": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "count": 6
+        }
+      ],
+      "good_involutions": 8847360
+    },
+    {
+      "action": 7,
+      "order": 64,
+      "center": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          2
+        ]
+      ],
+      "center_order": 4,
+      "class_number": 22,
+      "blocks": [
+        {
+          "representatives": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "class_sizes": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "weights": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "count": 10
+        },
+        {
+          "representatives": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "class_sizes": [
+            8,
+            8
+          ],
+          "weights": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "count": 6
+        },
+        {
+          "representatives": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              2
+            ]
+          ],
+          "class_sizes": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "weights": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "count": 10
+        },
+        {
+          "representatives": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "class_sizes": [
+            8,
+            8
+          ],
+          "weights": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "count": 6
+        },
+        {
+          "representatives": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "class_sizes": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "weights": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "count": 10
+        },
+        {
+          "representatives": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              11,
+              2
+            ]
+          ],
+          "class_sizes": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "weights": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "count": 10
+        },
+        {
+          "representatives": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "class_sizes": [
+            2,
+            2
+          ],
+          "weights": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "count": 6
+        }
+      ],
+      "good_involutions": 2160000
+    }
+  ],
+  "coverage": "Exact group laws, centers, conjugacy classes, central-label blocks, and complete good-involution counts."
+}

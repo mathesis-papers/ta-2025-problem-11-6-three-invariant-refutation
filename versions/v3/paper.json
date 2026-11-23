@@ -1,0 +1,66 @@
+{
+  "files": {
+    "pdf": {
+      "bytes": 103819,
+      "matches_public": true,
+      "path": "paper.pdf",
+      "public_sha256": "90cffa68def305efdc005240a0d4bef0705793836dc118415ae7f17d88b77567",
+      "sha256": "90cffa68def305efdc005240a0d4bef0705793836dc118415ae7f17d88b77567"
+    },
+    "source": {
+      "bytes": 24208,
+      "matches_public": true,
+      "path": "source.archive",
+      "public_sha256": "b90641bf25c493eca9346bad7ecd5b885b970d8464da3093e5ca44474e007295",
+      "sha256": "b90641bf25c493eca9346bad7ecd5b885b970d8464da3093e5ca44474e007295"
+    }
+  },
+  "source_identity": "Mathesis public projection",
+  "work": {
+    "abstract_text": "We answer negatively Ta's Problems 11.6–11.7 in arXiv:2505.08090v5, Section 11, page 27, and prove his Conjecture 5.13 in arXiv:2508.16772v1, Section 5.2.2, page 17, extending the counting methods of Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026). The two semidirect products C16 semidirect C4 with actions 5 and 7 have invariant triple (64,4,22), but respectively 8847360 and 2160000 good involutions. Ta's central-label characterization gives a weighted-involution formula for every finite conjugation subquandle and an exact criterion for equality in the central-label bound. The quaternion example attains that bound with two orbits and a center of order two. Inversion-closure is distinguished from classwise inverse stability, correcting Remark 2.14. For the linear quandle Lambda_(4n,2n-1), the number of good involutions is ten for odd n and four for even n; the odd case proves Conjecture 5.13, and the even case reproves Ta's Remark 5.14.",
+    "authors": [
+      {
+        "affiliation": "ChronoAI Pte Ltd, Singapore",
+        "name": "Haobo Ma"
+      },
+      {
+        "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+        "name": "Wenlin Zhang"
+      }
+    ],
+    "concept_doi": null,
+    "current_version": 3,
+    "doi": null,
+    "lean_source": {
+      "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+      "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [],
+    "pdf": {
+      "bytes": 103819,
+      "sha256": "90cffa68def305efdc005240a0d4bef0705793836dc118415ae7f17d88b77567",
+      "url": "/api/v1/collected-papers/ta-2025-problem-11-6-three-invariant-refutation/files/pdf?version=3"
+    },
+    "previous_version": null,
+    "publication": "public",
+    "published_on": "2026-11-23T02:25:44.087330548Z",
+    "record": "ta-2025-problem-11-6-three-invariant-refutation",
+    "repository_name": "ta-2025-problem-11-6-three-invariant-refutation",
+    "source": {
+      "bytes": 24208,
+      "sha256": "b90641bf25c493eca9346bad7ecd5b885b970d8464da3093e5ca44474e007295",
+      "url": "/api/v1/collected-papers/ta-2025-problem-11-6-three-invariant-refutation/files/source?version=3"
+    },
+    "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+    "versions": [
+      {
+        "previous_version": null,
+        "published_on": "2026-11-23T02:25:44.087330548Z",
+        "revision": "3",
+        "version": 3
+      }
+    ],
+    "work": "ta-2025-problem-11-6-three-invariant-refutation"
+  }
+}

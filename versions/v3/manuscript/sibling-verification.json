@@ -1,0 +1,2968 @@
+{
+  "schema_version": 1,
+  "quaternion_example": {
+    "coordinate_order": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "dihedral_R4_identification": true,
+    "all_functions_examined": 256,
+    "good_maps": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ]
+    ],
+    "automorphisms": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "antiautomorphisms": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "symmetric_isomorphism_classes": [
+      [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ]
+    ],
+    "subquandle": {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 2,
+      "weights": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 4,
+      "equality_criterion": true
+    }
+  },
+  "whole_Q8": {
+    "good_involutions": 16,
+    "sharper_bound": 16,
+    "central_label_bound": 32
+  },
+  "G5_inverse_classes": {
+    "class_of_a": [
+      1,
+      5,
+      9,
+      13
+    ],
+    "class_of_inverse_a": [
+      3,
+      7,
+      11,
+      15
+    ]
+  },
+  "nonempty_conjugation_closed_subsets_of_Q8": 55,
+  "subset_checks": [
+    {
+      "elements": [
+        [
+          0,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 1,
+      "center_order": 1,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 1,
+      "equality_criterion": true
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 4,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 4,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 4,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 2,
+      "center_order": 2,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 2,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 4,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 4,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 1,
+      "weights": [
+        [
+          1
+        ]
+      ],
+      "good_involutions": 1,
+      "weighted_count": 1,
+      "direct_function_count": 1,
+      "central_label_bound": 4,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 2,
+      "center_order": 2,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 4,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 2,
+      "weights": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 2,
+      "weighted_count": 2,
+      "direct_function_count": 2,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 64,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 4,
+      "weights": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 10,
+      "weighted_count": 10,
+      "direct_function_count": 10,
+      "central_label_bound": 256,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 4,
+      "weights": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 10,
+      "weighted_count": 10,
+      "direct_function_count": 10,
+      "central_label_bound": 256,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 4,
+      "center_order": 4,
+      "orbit_count": 4,
+      "weights": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_involutions": 10,
+      "weighted_count": 10,
+      "direct_function_count": 10,
+      "central_label_bound": 256,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 2,
+      "weights": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 4,
+      "equality_criterion": true
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 2,
+      "weights": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 4,
+      "equality_criterion": true
+    },
+    {
+      "elements": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 2,
+      "weights": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": 4,
+      "central_label_bound": 4,
+      "equality_criterion": true
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": null,
+      "central_label_bound": 8,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": null,
+      "central_label_bound": 8,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 3,
+      "weights": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": null,
+      "central_label_bound": 8,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 3,
+      "weights": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": null,
+      "central_label_bound": 8,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 3,
+      "weights": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": null,
+      "central_label_bound": 8,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 3,
+      "weights": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 4,
+      "weighted_count": 4,
+      "direct_function_count": null,
+      "central_label_bound": 8,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 4,
+      "weights": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 8,
+      "weighted_count": 8,
+      "direct_function_count": null,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 4,
+      "weights": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 8,
+      "weighted_count": 8,
+      "direct_function_count": null,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 4,
+      "weights": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 8,
+      "weighted_count": 8,
+      "direct_function_count": null,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 3,
+      "weights": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 8,
+      "weighted_count": 8,
+      "direct_function_count": null,
+      "central_label_bound": 8,
+      "equality_criterion": true
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 4,
+      "weights": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "good_involutions": 8,
+      "weighted_count": 8,
+      "direct_function_count": null,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 4,
+      "weights": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 8,
+      "weighted_count": 8,
+      "direct_function_count": null,
+      "central_label_bound": 16,
+      "equality_criterion": false
+    },
+    {
+      "elements": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "generated_subgroup_order": 8,
+      "center_order": 2,
+      "orbit_count": 5,
+      "weights": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "good_involutions": 16,
+      "weighted_count": 16,
+      "direct_function_count": null,
+      "central_label_bound": 32,
+      "equality_criterion": false
+    }
+  ],
+  "linear_quandle_family": [
+    {
+      "parameter": 1,
+      "order": 4,
+      "action": 1,
+      "fixed_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 2,
+      "order": 8,
+      "action": 3,
+      "fixed_points": [
+        0,
+        4
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        4,
+        4
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 3,
+      "order": 12,
+      "action": 5,
+      "fixed_points": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 4,
+      "order": 16,
+      "action": 7,
+      "fixed_points": [
+        0,
+        8
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        8,
+        8
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 5,
+      "order": 20,
+      "action": 9,
+      "fixed_points": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 6,
+      "order": 24,
+      "action": 11,
+      "fixed_points": [
+        0,
+        12
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        12,
+        12
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 7,
+      "order": 28,
+      "action": 13,
+      "fixed_points": [
+        0,
+        7,
+        14,
+        21
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 8,
+      "order": 32,
+      "action": 15,
+      "fixed_points": [
+        0,
+        16
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        16,
+        16
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 9,
+      "order": 36,
+      "action": 17,
+      "fixed_points": [
+        0,
+        9,
+        18,
+        27
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 10,
+      "order": 40,
+      "action": 19,
+      "fixed_points": [
+        0,
+        20
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        20,
+        20
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 11,
+      "order": 44,
+      "action": 21,
+      "fixed_points": [
+        0,
+        11,
+        22,
+        33
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 12,
+      "order": 48,
+      "action": 23,
+      "fixed_points": [
+        0,
+        24
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        24,
+        24
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 13,
+      "order": 52,
+      "action": 25,
+      "fixed_points": [
+        0,
+        13,
+        26,
+        39
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 14,
+      "order": 56,
+      "action": 27,
+      "fixed_points": [
+        0,
+        28
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        28,
+        28
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 15,
+      "order": 60,
+      "action": 29,
+      "fixed_points": [
+        0,
+        15,
+        30,
+        45
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 16,
+      "order": 64,
+      "action": 31,
+      "fixed_points": [
+        0,
+        32
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        32,
+        32
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 17,
+      "order": 68,
+      "action": 33,
+      "fixed_points": [
+        0,
+        17,
+        34,
+        51
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        17,
+        17,
+        17,
+        17
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 18,
+      "order": 72,
+      "action": 35,
+      "fixed_points": [
+        0,
+        36
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        36,
+        36
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 19,
+      "order": 76,
+      "action": 37,
+      "fixed_points": [
+        0,
+        19,
+        38,
+        57
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        19,
+        19,
+        19,
+        19
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 20,
+      "order": 80,
+      "action": 39,
+      "fixed_points": [
+        0,
+        40
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        40,
+        40
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 21,
+      "order": 84,
+      "action": 41,
+      "fixed_points": [
+        0,
+        21,
+        42,
+        63
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        21,
+        21,
+        21,
+        21
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 22,
+      "order": 88,
+      "action": 43,
+      "fixed_points": [
+        0,
+        44
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        44,
+        44
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 23,
+      "order": 92,
+      "action": 45,
+      "fixed_points": [
+        0,
+        23,
+        46,
+        69
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        23,
+        23,
+        23,
+        23
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 24,
+      "order": 96,
+      "action": 47,
+      "fixed_points": [
+        0,
+        48
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        48,
+        48
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 25,
+      "order": 100,
+      "action": 49,
+      "fixed_points": [
+        0,
+        25,
+        50,
+        75
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 26,
+      "order": 104,
+      "action": 51,
+      "fixed_points": [
+        0,
+        52
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        52,
+        52
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 27,
+      "order": 108,
+      "action": 53,
+      "fixed_points": [
+        0,
+        27,
+        54,
+        81
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 28,
+      "order": 112,
+      "action": 55,
+      "fixed_points": [
+        0,
+        56
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        56,
+        56
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 29,
+      "order": 116,
+      "action": 57,
+      "fixed_points": [
+        0,
+        29,
+        58,
+        87
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        29,
+        29,
+        29,
+        29
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    },
+    {
+      "parameter": 30,
+      "order": 120,
+      "action": 59,
+      "fixed_points": [
+        0,
+        60
+      ],
+      "component_count": 2,
+      "component_sizes": [
+        60,
+        60
+      ],
+      "label_assignments_examined": 4,
+      "good_involutions": 4
+    },
+    {
+      "parameter": 31,
+      "order": 124,
+      "action": 61,
+      "fixed_points": [
+        0,
+        31,
+        62,
+        93
+      ],
+      "component_count": 4,
+      "component_sizes": [
+        31,
+        31,
+        31,
+        31
+      ],
+      "label_assignments_examined": 256,
+      "good_involutions": 10
+    }
+  ],
+  "coverage": "Direct quaternion maps, automorphisms, antiautomorphisms and symmetric isomorphism classes; weighted counts and equality criterion on every quaternion conjugation subquandle; distinct inverse classes in G5; complete Alexander-label enumeration and defining identities for the linear family with parameters 1 through 31."
+}
