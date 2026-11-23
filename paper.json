@@ -28,9 +28,9 @@
         "name": "Wenlin Zhang"
       }
     ],
-    "concept_doi": null,
+    "concept_doi": "10.5281/zenodo.24409475",
     "current_version": 3,
-    "doi": null,
+    "doi": "10.5281/zenodo.24409476",
     "lean_source": {
       "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
       "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
